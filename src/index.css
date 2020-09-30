@@ -31,7 +31,7 @@ body{
 }
 .brand a{
   color: #ffffff;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
   text-decoration: none;
 }
@@ -189,7 +189,7 @@ a:hover{
   padding: 1rem;
 }
 
-.details-action ul li:last-child{
+.details-action ul li:last-child {
   display: flex;
   flex-direction: column;
 }
@@ -205,6 +205,6 @@ a:hover{
   border: .1rem #404040 solid;
 }
 
-.button.primary{
+.button.primary {
   background-color: #f0c040;
 }

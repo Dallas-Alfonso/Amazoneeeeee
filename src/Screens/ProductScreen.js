@@ -48,10 +48,14 @@ function ProductScreen (props) {
                             <option>4</option>
                         </select>
                     </li>
+                    <li>
                     <button className="button" >Add to Cart</button>
+                    </li>
                 </ul>
             </div>
+
         </div>
+        
         </div>
 }
 export default ProductScreen;
