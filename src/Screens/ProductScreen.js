@@ -25,7 +25,7 @@ function ProductScreen (props) {
         (
             <div className="details">
             <div className="details-image">
-                <img src={product.image} alt="product" ></img>
+                <img src={product.image} alt="product"></img>
             </div>
             <div className="details-info">
                 <ul>
@@ -63,15 +63,15 @@ function ProductScreen (props) {
                         </select>
                     </li>
                     <li>
-                    <button className="button" >Add to Cart</button>
+                    <button className="button primary" >Add to Cart</button>
                     </li>
                 </ul>
             </div>
 
         </div>
-        )
+            )
         }
     
-        </div>
+    </div>
 }
 export default ProductScreen;
