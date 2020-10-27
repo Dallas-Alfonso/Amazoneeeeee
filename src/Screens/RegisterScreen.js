@@ -58,7 +58,7 @@ function RegisterScreen (props) {
                 </li>
                 <li>
                     <label htmlFor="rePassword">Re-Enter Password</label>
-                    <input type="rePassword" id="rePassword" name="rePassword" onChange={(e)=>setPassword(e.target.value)}>                        
+                    <input type="Password" id="rePassword" name="rePassword" onChange={(e)=>setPassword(e.target.value)}>                        
                     </input>
                 </li>
                 <li>
@@ -67,9 +67,7 @@ function RegisterScreen (props) {
                 <li>
                     Already have an account? <Link to='/signin'>Sign-in</Link>
                 </li>
-                <li>
-                    <Link to="/register" className="button secondary text-center">Create your amazone account</Link>
-                </li>
+                
             </ul>
         </form>
     </div> 
